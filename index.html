@@ -17,9 +17,8 @@
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/a014ff88cf.js" crossorigin="anonymous"></script>
 
-
-
-
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- boostrap JS -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -30,37 +29,46 @@
 </head>
 <body>
     <!-- Header Part -->
-<div>
+<div class="container-fluid wholeheader">
 <!-- Main Header part start -->
-    <div>
-        <div>
-            <h3>CM Furniture Mart</h3>
-            <!-- Logo part -->
-        </div>
-
-        <div>
-            <ul>
-                <!-- Menu Items -->
-                <li>Home</li>
-                <li>Features</li>
-                <li>Products</li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light navigation">
+    <a class="navbar-brand" href="#"> <span class="brandname"> CM Furniture Mart</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse collapsebtn" id="navbarNav">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"> <span class="navitemsactive">Home</span> <span class="sr-only ">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <span class="navitems"> Features</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="navitems"> Products</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><span class="navitems">Contact Us</span></a>
+          </li>
+      </ul>
     </div>
-
+  </nav>
     <!-- Central Part of Header  -->
 
-    <div>
-        <div>
-            <h1>The Products you 'wish' at a price you 'wish'</h1>
-        </div>
-        <div>
-            <img src="images/Front image.png" alt="">
-        </div>
+    <div class='row header-center'>
+        <div class="col-lg-6">
+            <h1><span class="bannertext">The Products you wish </span>
+               <br><span class="bannertext"> At a price you wish</span> </h1>
+            <div class="bannerbutton">
+               <button type="button" class="btn btn-dark btn-lg btn1">Get Started</button>
+               <button type="button" class="btn btn-outline-dark btn-lg btn2">Contact Us</button>
+            </div>
+        
+            </div>
 
-        <div>
-            <Button>Get Started</Button>
+        <br>
+        <div class="col-lg-6" style="text-align: center;">
+            <img class="bannerimage" src="images/Front image.png" alt="Cover image">
         </div>
 
     </div>
@@ -68,17 +76,16 @@
 </div>
 
     <!-- Our feature -->
-    <div>
-        <div>
+    <div class="row">
+        <div class="col-lg-4">
             <div><i class="fas fa-check-circle"></i></div>
             <div>Quality</div>
-
         </div>
-        <div>
+        <div class="col-lg-4">
             <div><i class="fas fa-wallet"></i></div>
             <div>Budget Friendly</div>
         </div>
-        <div>
+        <div class="col-lg-4">
             <div><i class="fas fa-coins"></i></div>
             <div>Variety</div>
         </div>

@@ -1,5 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 svg{
     fill: #6d69fc;
     width: 10rem;
 
 }
+
+/* navbar */
+
+.navicon-color{
+    color: #fff;
+    fill: #fff;
+}
+
+.navitemsactive{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.navitems{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navitems:hover{
+    color: #0f3460;
+}
+
+
+/* header */
+.navigation{
+    padding: 5px;
+}
+
+.bannertext{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.bannertext:hover{
+    color:#3f3d56 ;
+}
+
+.bannerimage{
+    width:100%;
+}
+
+.bannerbutton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.btn1{
+    margin-right: 20px;
+}
+
+
+
+.header-center{
+    margin: 100px 0;
+    padding-bottom: 150px;
+}
+
+.wholeheader{
+    background-color: #e94560;
+}
+
+
+/* brand name */
+.brandname{
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
